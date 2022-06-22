@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Raleway:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pop_up.css">
+    <script>
+        const body = document.querySelector("body");
+
+        body.addEventListener('onclick', popDown);
+
+        function popUp()
+        {
+            
+
+            document.getElementById("pop_up").style.visibility = "visible";
+
+        }
+
+        function popDown(e)
+        {
+            alert("dasda");
+            document.getElementById("pop_up").style.visibility = "hidden";
+
+        }
+    </script>
+    <div class="button" onclick="popUp()">
+        <a href="#" id="open_pop_up" id="open_pop_up">Заказать экскурсию</a>
+    </div>
+    <div class="pop_up" id="pop_up">
+        <div class="pop_up_container">
+            <div class="pop_up_body" id="pop_up_body">
+                <h1>Хотите посмотреть, как происходит процесс строительства?</h1>
+                <p>Запишитесь на бесплатную экскурсию!</p>
+                <form action="">
+                    <div class="pop_up_close" id="pop_up_close"></div>
+                    <input type="text" placeholder="Ваше имя*">
+                    <input type="number" placeholder="Номер телефона*">
+                    <select name="" class="selector" required="required">
+                        <option value="">Выберите мессенджер</option>
+                        <option value="1">Telegram</option>
+                        <option value="2">Viber</option>
+                        <option value="3">WhatsApp</option>
+                      </select>
+                    <button>Перезвоните мне</button>
+                </form>
+                <h2>&#128274; Ваши данные не будут переданы третьим лицам</h2>
+                <h3>* - обязательные поля</h3>
+            </div>
+        </div>
+    </div>
+</html>

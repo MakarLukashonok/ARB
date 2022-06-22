@@ -1,0 +1,530 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container_header{
+text-align: center;
+margin-top: 5px;
+}
+.header_block{
+    display: inline-block;
+    margin-left: 2%;
+    width: 15%;
+}
+header p{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px; 
+}
+.maket{
+  background-image: linear-gradient(to right, #000000 0%, #000000 100%);
+  background-repeat: repeat-x; 
+  background-position: 0 100%; 
+  background-size: 100% 2px;
+  margin-left: 5px;
+}
+.phone{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 27px;
+margin-bottom: 5px;
+}
+.number {
+    font-family: Montserrat;
+    background-color:#319F1C;
+    padding: 20px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    border: 0;
+    height: 64px;
+    position: relative;
+    top: -20px;
+}
+.obl{
+    position: absolute;
+    right: 0;
+    top: -2px;
+    max-width: 842px;
+    max-height: 288px;
+    opacity: 0.8;
+}
+.fon1{
+    position: absolute;
+    max-width: 1405px;
+    min-height: 800px;
+    left: 0;
+    width: 100%;
+}
+.house{
+ position: absolute;  
+ max-width: 1100px;
+ right: 0;
+}
+.navbar {
+    overflow: hidden;
+    background:  linear-gradient(90deg, rgba(246, 246, 246, 0) 1.47%, rgba(163, 210, 155, 0.92) 7.25%, #319F1C 14.68%, #309E1B 50.68%, #319F1C 84.33%, rgba(147, 202, 137, 0.79) 91.68%, rgba(246, 246, 246, 0) 99.05%);
+    font-family: Raleway;
+    border-radius: 3px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar a {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    width: 16%;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(8, 59, 12);
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background: linear-gradient(90deg, rgba(246, 246, 246, 0) 1.47%, rgba(163, 210, 155, 0.92) 7.25%, #319F1C 14.68%, #309E1B 50.68%, #319F1C 84.33%, rgba(147, 202, 137, 0.79) 91.68%, rgba(246, 246, 246, 0) 99.05%);;
+    min-width: 160px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: linear-gradient(90deg, rgba(163, 210, 155, 0.92) 1.47%, #319F1C 7.25%, #38792b 14.68%, rgb(8, 59, 12) 50.68%, #38792b 84.33%, #319F1C 91.68%, rgba(163, 210, 155, 0.92) 99.05%);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.contact{
+    width: 16%;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-top: 28px solid #fff;
+    position: absolute;
+}
+.specialists{
+    width: 60%;
+    margin-left: 15%;
+    max-width: 1034px;
+    position: relative;
+    margin-top: 40px;
+}
+.first_p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 42px;  
+}
+.second_p{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px; 
+    margin-top: 15px; 
+    width: 800px;
+}
+.zakaz{
+    background: #FFFFFF;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;  
+    max-width: 774px;
+    padding: 25px;
+    margin-top: 20px;
+}
+.zakaz input{
+    display: block;
+    margin: 25px auto opx auto;
+    width: 48%;
+    height: 40px;
+    padding: 10px 34px;
+    border-radius: 3px;
+    border: 1px solid #319F1C;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 13px;
+    float: left;
+}
+.zakaz input:focus{
+    outline: none;
+}
+.zakaz h3{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 37px;
+color: #319F1C;
+}
+.zakaz p{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px; 
+    margin-top: 14px; 
+}
+.selector{
+    display: block;
+    margin: 25px auto opx auto;
+    width: 48%;
+    height: 40px;
+    padding: 10px 34px;
+    border-radius: 3px;
+    border: 1px solid #319F1C;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 13px; 
+    float: right;
+}
+.zakaz button{
+    display: block;
+    width: 48%;
+    height: 40px;
+    background: #319F1C;
+    box-shadow: 0px 4px 4px #64BC45;
+    border-radius: 3px;
+    border: none;
+    margin-top: 13px;
+    color: #fff;
+    float: right;
+    font-family: Raleway;
+    font-size: 16px;
+    }
+    .zakaz h4{
+        font-family: Raleway;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        width: 342px;
+        margin-top: 5px;
+    }
+    .specialists img{
+        width:190px;
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 40px;
+    }
+    .obl4{
+        position: absolute;
+        right: 0;
+        max-width: 842px;
+        max-height: 288px;
+        opacity: 0.9;
+    }
+    .obl3{
+        position: absolute;
+        right: 350px;
+        max-width: 842px;
+        max-height: 288px;
+        opacity: 0.9;
+    }
+    .obl2{
+        position: absolute;
+        left: 0;
+        max-width: 842px;
+        max-height: 288px;
+        opacity: 0.9;
+    }
+    .portfolio{
+        max-width: 1580px;
+        position: relative;
+        margin-top: 300px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .pikch img{
+        max-height: 505px;
+    }
+    .pikch{
+        width: 50%;
+        margin-right: 0;
+        position: absolute;
+        
+    }
+    .info{
+        width: 50%;
+        position: relative;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: 57%;
+    }
+    .info h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    color: #319F1C;
+    }
+    .info h2{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    }
+    .info h3{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    }
+    .fon2{
+        left: 0;
+        position: absolute;
+        max-height: 900px;
+    }
+    .pen{
+        position: absolute;
+        right: 0;
+        width: 250px;
+    }
+    .rect{
+        position: absolute;
+        right: 0;
+        width: 370px;
+    }
+    .blocks{
+        max-width: 1580px;
+        position: relative;
+        margin-left: 8%;
+        margin-right: 8%;  
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 46px;
+        float: left;
+    }
+    .blocks h2{
+        max-width: 900px;
+        margin-bottom: 50px;
+    }
+   .works img{
+        max-width: 390px;
+    }
+    .works p{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 27px;
+        max-width: 390px;
+    }
+  .works > div {
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0px 1% 30px 0px;
+    }
+.works1{
+    position: relative;
+    font-size: 14px;
+    float: left;
+    margin: 0px -20px 30px 0px;
+}
+.works2{
+    position: relative;
+    font-size: 14px;
+}
+.works3{
+    position: relative;
+    font-size: 14px;
+    float: right;
+    margin-left: 2px;
+    margin: 0px -20px 30px 0px;
+    top: 0px;
+}
+.fon3{
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    margin-top: 1200px;
+}
+.call{
+    max-width: 1580px;
+    margin-left: 8%;
+    margin-right: 8%;
+    
+}
+.house2{
+    max-width: 700px;
+    position: relative;
+}
+.menu2{
+    width: 45%;
+    padding: 25px;
+    position: relative;
+    float: right;
+}
+.menu2 input{
+    display: block;
+    margin: 25px auto opx auto;
+    width: 100%;
+    height: 40px;
+    padding: 10px 34px;
+    border-radius: 3px;
+    border: 1px solid #319F1C;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 13px;
+}
+.menu2 input:focus{
+    outline: none;
+}
+.menu2 h3{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 37px;
+color: #000000;
+}
+.menu2 p{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px; 
+    margin-top: 14px; 
+}
+.menu2 button{
+    display: block;
+    width: 47%;
+    height: 40px;
+    background: #319F1C;
+    box-shadow: 0px 4px 4px #64BC45;
+    border-radius: 3px;
+    border: none;
+    margin-top: 13px;
+    color: #fff;
+    font-family: Raleway;
+    font-size: 16px;
+    }
+    .message2{
+        height: 100px!important;
+    }
+    footer {
+        padding: 30px;
+        background: #363130;
+        background-blend-mode: screen;
+        background-size: cover;
+        max-height: 300px;
+        position: relative;
+    }
+    footer button{
+        display: block;
+        background: #363130;
+        width: 60%;
+        height: 64px;
+        border-radius: 6px;
+        border: 2px solid #FFFFFF;
+        margin-top: 25px;
+        color: #fff;
+        font-family: Raleway;
+        font-size: 16px;
+        }
+    .footer1{
+        width: 25%;
+        margin-left: 6%;
+        display: inline-block;
+    }
+    footer a{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        text-decoration: none;
+        display: block;
+        margin-top: 15px;
+    }
+    .footer2{
+        display: inline-block;
+        width: 25%;
+    }
+    .footer3{
+        margin-top: 25px;
+        display: inline-block;
+        margin-right: 4%;
+    }
+    .footer3 p{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #FFFFFF;
+        max-width: 240px;
+    }
+    .icons img{
+       max-width: 29px; 
+       display: inline-block;
+       max-height: 25px;
+       margin-right: 19px;
+       margin-top: 10px;
+    }
+    @media(min-width: 1024px) and (max-width: 1515px){
+        .obl{
+            top: 150px;
+        }
+    }
