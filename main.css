@@ -407,6 +407,7 @@ color: #319F1C;
     max-width: 700px;
     position: relative;
 }
+
 .menu2{
     width: 45%;
     padding: 25px;
@@ -483,9 +484,12 @@ color: #000000;
         font-size: 16px;
         }
     .footer1{
-        width: 25%;
+        width: 20%;
         margin-left: 6%;
         display: inline-block;
+    }
+    .footer1 img{
+        width: 100%;
     }
     footer a{
         font-family: 'Raleway';
@@ -500,7 +504,7 @@ color: #000000;
     }
     .footer2{
         display: inline-block;
-        width: 25%;
+        width: 20%;
     }
     .footer3{
         margin-top: 25px;
@@ -523,8 +527,14 @@ color: #000000;
        margin-right: 19px;
        margin-top: 10px;
     }
+    @media(max-width: 1700px){
+
+    }
     @media(min-width: 1024px) and (max-width: 1515px){
         .obl{
             top: 150px;
+        }
+        .house2 img{
+            width: 40%;
         }
     }
